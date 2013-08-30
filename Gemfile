@@ -4,6 +4,7 @@ gem 'rails', '3.2.13'
 gem 'jquery-rails'
 gem 'devise'
 gem 'simple_form'
+gem "paperclip", "~> 3.0"
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -27,8 +28,9 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
-end
 
+
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
